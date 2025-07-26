@@ -32,21 +32,3 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
-
-# Devenv
-.devenv*
-devenv.local.nix
-
-# direnv
-.direnv
-
-# pre-commit
-.pre-commit-config.yaml
-
-# Vite Ruby
-/public/vite*
-node_modules
-# Vite uses dotenv and suggests to ignore local-only env files. See
-# https://vitejs.dev/guide/env-and-mode.html#env-files
-*.local
-
